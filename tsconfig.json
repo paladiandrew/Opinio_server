@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true,
+        "esModuleInterop": true,  // Добавьте эту строку
+        "skipLibCheck": true       // (опционально) может помочь избежать некоторых ошибок
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
